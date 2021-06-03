@@ -1,0 +1,98 @@
+body {
+
+    background-color: #d8d8d8;
+}
+
+h1 {
+
+    font-family: Arial Black;
+    color: #adff2f;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2 {
+
+    font-family: Arial Narrow;
+    color: #0040FF;
+    text-transform: capitalize;
+}
+
+h3 {
+
+    color: yellow;
+}
+
+h4 {
+
+    color: lightcoral;
+}
+
+h5 {
+
+    color: aquamarine;
+}
+
+h6 {
+
+    color: darkred;
+}
+
+h3,
+h4,
+h5,
+h6 {
+
+    font-family: Arial Narrow;
+}
+
+p {
+
+    font-family:Verdana;
+}
+
+p::first-letter {
+
+    text-transform: uppercase;
+}
+
+.text-stroke-design {
+
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+}
+
+.main-header {
+
+    text-align: center;
+    -webkit-text-stroke-width: 2px;
+}
+
+#conversion-tool-selection-container {
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+}
+
+#conversion-tool-selection-container div {
+
+    padding: 20px;
+    width: 320px;
+    height: 240px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 20px;
+    cursor: pointer;
+}
+
+#conversion-tool-selection-container div:hover {
+
+    background-color: #e6e6e6;
+    box-shadow: 5px 5px 5px black;
+    transform: scale(1);
+    transition: all .1s ease-in-out;
+}

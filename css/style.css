@@ -1,6 +1,7 @@
 body {
 
     background-color: #d8d8d8;
+    margin: 0;
 }
 
 h1 {
@@ -49,6 +50,7 @@ h6 {
 p {
 
     font-family:Verdana;
+    margin: 5px;
 }
 
 p::first-letter {
@@ -62,10 +64,59 @@ p::first-letter {
     -webkit-text-stroke-width: 1px;
 }
 
+
+
 .main-header {
 
     text-align: center;
     -webkit-text-stroke-width: 2px;
+}
+
+header {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: red;
+    position: sticky;
+    position: -webkit-sticky;
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    align-items: center;
+}
+
+.logo {
+
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: blue;
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.navigation-bar {
+
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 20px;
+    align-items: center;
+}
+
+.navigation-bar li {
+
+    padding-right: 20px;
+    list-style-type: none;
+}
+
+.navigation-bar li a {
+
+    color: yellow;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Arial Black;
 }
 
 #conversion-tool-selection-container {
@@ -95,4 +146,26 @@ p::first-letter {
     box-shadow: 5px 5px 5px black;
     transform: scale(1);
     transition: all .1s ease-in-out;
+}
+
+#conversion-tool-selection-form-info {
+
+    width: 75%;
+    margin: auto;
+    background-color: #e6e6e6;
+    padding: 10px;
+
+}
+
+#conversion-tool-selection-form-info label {
+
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+#conversion-tool-selection-form-info input {
+
+    width: 470px;
+    margin-top: 10px;
 }

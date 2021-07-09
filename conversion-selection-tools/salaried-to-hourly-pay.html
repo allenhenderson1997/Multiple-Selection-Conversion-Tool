@@ -6,15 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conversion Selection: Salaried To Hourly Pay</title>
     <link rel="stylesheet" type="text/css" href="../css/style.css" />
-    <script type="text/javascript" src="../js/salaried-to-hourly-pay-script.js"></script> 
+    <script type="text/javascript" src="../js/conversion-script.js"></script> 
 </head>
 <body>
     <header>
         <p class="logo text-stroke-design">mcst</p>
         <ul class="navigation-bar">
             <li class="text-stroke-design"><a href="/">home</a></li>
-            <li class="text-stroke-design"><a href="about.html">about</a></li>
-            <li class="text-stroke-design"><a href="tools.html">tools</a></li>
+            <li class="text-stroke-design"><a href="../about.html">about</a></li>
+            <li class="text-stroke-design"><a href="../conversion-tools.html">tools</a></li>
         </ul>
     </header>
     
@@ -24,7 +24,8 @@
 
     <form id="conversion-tool-selection-form-info">
         <label for="salary-input">What is your salary?</label><br>
-        <input type="text" placeholder="Your salary" name="salary-input" />
+        <input type="text" placeholder="Your salary" name="salary-input" id="user-salary-input" /><br>
+        <button type="submit" value="Submit" onclick="processSalariedToHourlyConvert()">Submit</button>
     </form>
 </body>
 </html>

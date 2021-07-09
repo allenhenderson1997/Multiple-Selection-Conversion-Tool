@@ -154,7 +154,7 @@ header {
     margin: auto;
     background-color: #e6e6e6;
     padding: 10px;
-
+    text-align: center;
 }
 
 #conversion-tool-selection-form-info label {
@@ -162,10 +162,27 @@ header {
     font-family: sans-serif;
     font-size: 50px;
     font-weight: bolder;
+    color: #050091;
 }
 
 #conversion-tool-selection-form-info input {
 
     width: 470px;
     margin-top: 10px;
+}
+
+#conversion-tool-selection-form-info button {
+
+    background-color: #64fe2e;
+    color: black;
+    font-family: sans-serif;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+#result {
+
+    color: black;
+    font-size: 70px;
+    font-family: sans-serif;
 }
